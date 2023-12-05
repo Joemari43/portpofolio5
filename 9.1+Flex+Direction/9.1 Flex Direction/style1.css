@@ -1,0 +1,21 @@
+html{
+    background: url(./secondBook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.textbox{
+    display: flex;
+    flex-direction: row;
+    align-content:space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-shadow: 300px2px 4px 4px rgba(46,91,173,0.6);
+}
+
+h1{
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
